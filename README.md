@@ -30,19 +30,32 @@ According to the above both Total and Lots summary statistics screenshot, the to
 The above screenshot represented the t-test to determine the PSI across all the manufacturing lots. The value of the p-value is 0.060 and at the significant level of 0.05, we fail to reject the null hypothesis that PSI across all manufacturing lots is statistically equivalent from population mean of 1500 pound per square inch. 
 
 ### T-Test on each manufacturing lot
-T-test: Lot 1
+####T-test: Lot 1
 <img width="598" alt="Delivery_3 - Lot 1" src="https://user-images.githubusercontent.com/92502292/153742151-5ebc5ade-5d59-468c-93cb-ac4a4b9fdb3b.PNG">
 
 In Lot1, 95% confident level T-Test, the returning p-value is 1. At the significance value of 0.05, we could say we could not have enough evidence to reject the Null hypothesis that there are not statistically difference between the observed sample mean and the presumed population mean. 
 
-T-test: Lot 2
+####T-test: Lot 2
 <img width="512" alt="Delivery_3 - Lot 2" src="https://user-images.githubusercontent.com/92502292/153742226-bce7d0a7-d50b-48f2-b854-f35ee7f21985.PNG">
 
 The return p-value in Lot2 t-test is 0.672 at the significant level of 0.05, the Null Hypothesis is failed to reject that the observed sample and the population mean have no statistically difference. 
 
-T-test: Lot 3
+####T-test: Lot 3
 <img width="536" alt="Delivery_3 - Lot 3" src="https://user-images.githubusercontent.com/92502292/153742250-d5c42231-5bc8-48cf-86b9-e36e0f632e56.PNG">
 
 At the significance level of 0.05, the p-value of Lot2 t-test is 0.04168 which is smaller than the significance level and . At this point, there is enough evidence to reject the null hypothesise and there is a significant difference in sample mean from Lot3 and the population mean. 
 
 ## Study Design: MechaCar vs Competition 
+Another statistical study can be performed to do on the MechaCar against the competition is the linear regression model on cost and highway fuel efficiency. The metric can include: 
+1. Cost and Highway fuel efficiency: Dependent variable
+2. AWD: Independent variable
+3. Horse power: Independent variable
+4. Vehicle weight: Independent variable 
+5. MPG: Independent variable. 
+
+#### Statistical Method 
+ - Null Hypothesis: MechaCar is not priced based on how efficient of fuel on Highway. 
+ - Alternative Hypothesis: MechaCar is priced according to Highway fuel efficiency. 
+
+#### Required data to run the test
+In addition of all the above listed metrics, some of them such as AWD, MPG and Vehicle weights are already at hand. We would have to collect other variables like Selling price and fuel efficiency to run the test. 
